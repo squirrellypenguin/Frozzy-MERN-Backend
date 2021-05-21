@@ -1,0 +1,38 @@
+[
+{
+    "name": "Ice Cream Store",
+    "descirption": "Olde Shoppe Fun",
+    "img": "",
+    "location": "123 Lost Lane, Williams, HI",
+    "rating": [3,4,5]
+},
+{
+    "name": "Creemies",
+    "descirption": "Soft Dairy Blasts",
+    "img": "",
+    "location": "555 Farm Lane, Moostown, HI",
+    "rating": [1,1,1]
+},
+{
+    "name": "Gelato Joe",
+    "descirption": "Italian styled dessert",
+    "img": "",
+    "location": "51 Church St, Naples, HI",
+    "rating": [5,5,5]
+},
+{
+    "name": "Ice S-Cream ",
+    "descirption": "Spooky yummy!",
+    "img": "",
+    "location": "666 Damien Drive, Sedevil, HI",
+    "rating": [3,4,5]
+},
+{
+    "name": "Ben and Jerry",
+    "descirption": "Tie dyed still",
+    "img": "",
+    "location": "420 High St, Times, HI",
+    "rating": [2,2,2]
+}
+
+]

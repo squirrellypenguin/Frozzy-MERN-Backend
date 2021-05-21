@@ -4,8 +4,8 @@ const router = require("express").Router();
 const { Router } = require("express");
 //IMPORT OUR MODEL
 const Store = require("../models/Store");
-const Creem = require("../models/Creem");
-// const seed = require("../db/seedData.json")
+// const Creem = require("../models/Creem");
+const seedStore = require("../db/seedStoreData.json")
 // SEED DATA FOR SEED ROUTE
 // const todoSeed = [
 //   {
@@ -21,13 +21,13 @@ router.get("/seed", async (req, res) => {
   // try block for catching errors
   try {
     // remove all places from database
-    await Creem.remove({});
+    await Store.remove({});
     // add the seed data to the database
-    await Creem.create(seed);
+    await Store.create(seedStore);
     // get full list of places to confirm seeding worked
-    const creems = await Creem.find({});
+    const stores = await Store.find({});
     // return full list of places as JSON
-    res.json(creems);
+    res.json(stores);
   } catch (error) {
     // return error as JSON with an error status
     res.status(400).json(error);

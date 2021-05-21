@@ -38,7 +38,7 @@ app.get("/", (req, res) => {
 });
 
 // Dog Routes send to dog router
-// app.use("/store", storeRouter);
+app.use("/store", storeRouter);
 app.use("/creem", creemRouter);
 
 //LISTENER
