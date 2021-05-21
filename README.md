@@ -8,16 +8,16 @@ Basic API structure [Frozzy](https://github.com/squirrellypenguin/frozzy-fronten
 		descirption: String,
 		img: String,
 		location: String,
-		rating: [{ type: Number}]
+		rating: [Number]
 ```
 * Routes
 	* GETS
 		* `/store/:id` - Returns store based on DB uni_id
 		* `/store` - Returns all stores
-		* `/store/search/:search` - Provides parital search on name
+		* `/store/search/:search` - Provides partial search on name
 	* PUTS
 		* `/store/:id` - Update any part of the entry
-		* `/store/rating/:id` - Adds rating to the array in the colection	
+		* `/store/rating/:id` - Adds rating to the array in the collection	
 	* POST
 		* `/store` - Create new store
 	* DELETE
@@ -38,10 +38,10 @@ Basic API structure [Frozzy](https://github.com/squirrellypenguin/frozzy-fronten
 	* GETS
 		* `/creem/:id` - Returns creem based on DB uni_id
 		* `/creem` - Returns all creems
-		* `/creem/search/:search` - Provides parital search on name
+		* `/creem/search/:search` - Provides partial search on name
 	* PUTS
 		* `/creem/:id` - Update any part of the entry
-		* `/creem/rating/:id` - Adds rating to the array in the colection	
+		* `/creem/rating/:id` - Adds rating to the array in the collection	
 	* POST
 		* `/creem` - Create new store
 	* DELETE

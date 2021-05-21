@@ -11,7 +11,7 @@ const storeSchema = new Schema({
 		descirption: String,
 		img: String,
 		location: String,
-		rating: [{ type: Number}]
+		rating: [Number]
 }, {
     timestamps: true
 });
