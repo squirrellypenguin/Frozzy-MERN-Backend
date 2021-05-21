@@ -1,7 +1,7 @@
 [
 {
     "name": "Ice Cream Store",
-    "descirption": "Olde Shoppe Fun",
+    "description": "Olde Shoppe Fun",
     "img": "https://www.amny.com/wp-content/uploads/2019/04/Daveys-Ice-Cream-exterior-by-Gabe-Herman.jpeg",
     "location": "123 Lost Lane, Williams, HI",
     "rating": [3,4,5]
@@ -15,56 +15,56 @@
 },
 {
     "name": "Gelato Joe",
-    "descirption": "Italian styled dessert",
+    "description": "Italian styled dessert",
     "img": "https://thehill.com/sites/default/files/ca_icecream7120istock__0.jpg",
     "location": "51 Church St, Naples, HI",
     "rating": [5,5,5]
 },
 {
     "name": "Ice S-Cream ",
-    "descirption": "Spooky yummy!",
+    "description": "Spooky yummy!",
     "img": "https://s3.amazonaws.com/secretsaucefiles/photos/images/000/150/696/large/IMG_3848.JPG?1489461560",
     "location": "666 Damien Drive, Sedevil, HI",
     "rating": [3,4,5]
 },
 {
     "name": "Ben and Jerry",
-    "descirption": "Tie dyed still",
+    "description": "Tie dyed still",
     "img": "https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/business/customers/ben-and-jerrys-hero.png",
     "location": "420 High St, Times, HI",
     "rating": [2,2,2]
 },
 {
     "name": "Black Sheep Cream",
-    "descirption": "The one that stands out",
+    "description": "The one that stands out",
     "img": "https://s3-media0.fl.yelpcdn.com/bphoto/nlcPvpgizoI-sCFF6XhB4w/o.jpg",
     "location": "458 Keawe St, Honolulu, HI 96813",
     "rating": [3,4,5]
 },
 {
     "name": "Double Three",
-    "descirption": "The bubble waffles are influenced and are very similar to the Hong Kong waffles",
+    "description": "The bubble waffles are influenced and are very similar to the Hong Kong waffles",
     "img": "https://s3-media0.fl.yelpcdn.com/bphoto/dsJKsWxsFsGCtRXeieD7og/o.jpg",
     "location": "808 Sheridan St, Honolulu, HI 96814",
     "rating": [1,1,1]
 },
 {
     "name": "Scoop Sccop HI",
-    "descirption": "Scoop Scoops offers island sherbert in a variety of flavor",
+    "description": "Scoop Scoops offers island sherbert in a variety of flavor",
     "img": "https://s3-media0.fl.yelpcdn.com/bphoto/9uvpDAsXZ0nu4ppTL5NEdg/o.jpg",
     "location": "1915 S King St,Honolulu, HI 96826",
     "rating": [5,5,5]
 },
 {
     "name": "Teaspoon",
-    "descirption": "Korean style desserts. Bingsu (shave ice), Latte, and Ade",
+    "description": "Korean style desserts. Bingsu (shave ice), Latte, and Ade",
     "img": "https://s3-media0.fl.yelpcdn.com/bphoto/kKTGkQKfYtWWc6fPLlCm7g/o.jpg",
     "location": "Ste B, Ewa Beach, HI 96706",
     "rating": [3,4,5]
 },
 {
     "name": "Crackseed & Mochi",
-    "descirption": "Cute little shop that sells crack seed old school style",
+    "description": "Cute little shop that sells crack seed old school style",
     "img": "https://s3-media0.fl.yelpcdn.com/bphoto/uxnInRZ1oJD-QXXiTDg1Mg/o.jpg",
     "location": "1092 S Beretania St, Honolulu, HI 96814",
     "rating": [2,2,2]
