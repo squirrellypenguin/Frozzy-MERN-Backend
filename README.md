@@ -5,7 +5,7 @@ Basic API structure [Frozzy](https://github.com/squirrellypenguin/frozzy-fronten
 **Model Store**
 ```
 		name: String,
-		descirption: String,
+		description: String,
 		img: String,
 		location: String,
 		rating: [Number]

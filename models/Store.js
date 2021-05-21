@@ -8,7 +8,7 @@ const model = mongoose.model;
 // Create Place Schema
 const storeSchema = new Schema({
   		name: String,
-		descirption: String,
+		description: String,
 		img: String,
 		location: String,
 		rating: [Number]
