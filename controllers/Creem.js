@@ -84,4 +84,22 @@ router.put("/rating/:id", async (req, res) => {
   }
 });
 
+// POST NEW creem to db 
+
+router.post("/", async (req, res) => {
+  try {
+    // pass the request body to create a new place in the database
+    const newCreem = await Creem.create(req.body);
+    // send newly created place back as JSON
+    res.json(newCreem);
+  } catch (error) {
+    // return error as JSON with an error status
+    res.status(400).json(error);
+  }
+});
+
+//DElete Route
+router.delete("/:id", async (req, res) => {
+  res.json(await Creem.findByIdAndRemove(req.params.id));
+});
 module.exports = router;

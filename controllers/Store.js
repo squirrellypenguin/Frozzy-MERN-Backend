@@ -45,6 +45,10 @@ catch (error) {
 }
 });
 
+//DElete Route
+router.delete("/:id", async (req, res) => {
+  res.json(await Store.findByIdAndRemove(req.params.id));
+});
 
 //GET route for single store
 router.get("/data/:id", async (req, res) => {
