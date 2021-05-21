@@ -1,0 +1,419 @@
+[{
+  "name": "Caramel Chocolate Cheesecake",
+  "img": "",
+  "description": "Caramel Cheesecake Ice Cream with Graham Cracker-Covered Cheesecake Truffles & Chocolate Cookie Swirls",
+  "story": "In your cheesecake dreams, is it like you’re spooning through a world of caramel cheesecake ice cream swirled with chocolate cookies in a wonderland of truffles filled with cheesecake? Hello? You can wake up now…",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Chillin' the Roast™",
+  "img": "",
+  "description": "Cold Brew Coffee Ice Cream with Chocolate Cookie-Covered Coffee Liqueur Truffles & Fudge Swirls",
+  "story": "Our cold brew coffee ice cream not only delivers a chillacious blast of creamy caffeination, it’s also loaded with enough coffee liqueur-filled, cookie crumble-covered truffles to fuel a truffolution.",
+ 
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Chocolate Shake It™",
+"img": "",
+  "description": "Chocolate Malt Milkshake Ice Cream with Chocolate Cookie-Covered Fudge Truffles & Marshmallow Swirls",
+  "story": "For those who prefer their ice cream shaken, swirled, and truffled, here’s a chocolate malt milkshake and marshmallow creation we truffled up with euphoric morsels of cookie crumble-covered fudge.",
+ 
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "One Sweet World",
+ "img": "",
+  "description": "Coffee Caramel Ice Creams with Fudge Chunks & Swirls of Marshmallow & Salted Caramel",
+  "story": "At Ben & Jerry’s, we believe the world is sweetest when we stand together as one. That’s why we’re asking you to join us in digging deeper to understand issues of racial justice in America. Learn more and take action at benjerry.com/digdeeper",
+ 
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Americone Dream®",
+  "img": "",
+  "description": "Vanilla Ice Cream with Fudge-Covered Waffle Cone Pieces & a Caramel Swirl",
+  "story": "Founded in fudge-covered waffle cones, this caramel-swirled concoction is the only flavor that gets a s'cream of approval from The Late Show host, Stephen Colbert. What's sweeter is this flavor supports charitable causes through The Stephen Colbert AmeriCone Dream Fund.",
+
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Banana Split",
+  "img": "",
+  "description": "Banana & Strawberry Ice Creams with Walnuts, Fudge Chunks & a Fudge Swirl",
+  "story": "We turned the classic ice cream parlor sundae you've always loved into the at-home flavor creation you've always wanted. Enjoy!",
+ 
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Blondie Ambition™",
+ "img": "",
+  "description": "Buttery Brown Sugar Ice Cream with Blonde Brownies and Butterscotch Toffee Flakes",
+  "story": "What makes Ben & Jerry's so euphoric? Some say it's the legendary creamy-richness of our flavor creations. Others say it's the tastebud-boggling combinations of spoon-bending chunks & perfect swirls. We say, \"Enjoy!\"",
+ 
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Boom Chocolatta™ Cookie Core",
+ "img": "",
+  "description": "Mocha & Caramel Ice Creams with Chocolate Cookies, Fudge Flakes & a Chocolate Cookie Core",
+  "story": "As you slam dunk your spoon through creamy mocha & caramel to celebrate the epic chocolate cookie-spread core, your technique may not be perfect, but the victory’s perfectly delicious.",
+
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Bourbon Pecan Pie",
+  "img": "",
+  "description": "Buttery Bourbon Ice Cream with Pecans, Shortbread Cookie Pieces & a Whiskey Caramel Swirl",
+  "story": "Not long ago we scoop-toured through Texas asking you to elect the best of two Texas-inspired flavors. Thanks to you this bourbon-y whirl of pecans and cookies wrapped in whiskey-kissed caramel is now available Tex-clusively!",
+ 
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Brewed to Matter™",
+ "img": "",
+  "description": "Coffee Ice Cream with Fudge Chunks & a Brownie Batter Swirl",
+  "story": "We're thrilled to add this made-to-matter, brownie batter-swirled batchful of coffee awesomeness to the Ben & Jerry's family of flavors. It packs a powerful pintful of goodness that's guaranteed to amaze you with every consciously concocted bite.",
+
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Brownie Batter Core",
+ "img": "",
+  "description": "Chocolate & Vanilla Ice Creams with Fudge Brownies & a Brownie Batter Core",
+  "story": "Spooning your way to brownie nirvana? Smack dab in the middle of this brownie-chunk-filled ice cream there's a core of unbaked brownie batter calling your name. No, really. We heard it.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Cheesecake Brownie",
+"img": "",
+  "description": "Cheesecake Ice Cream with Cheesecake Brownie Chunks",
+  "story": "What do you call a creamy cheesecake ice cream filled with dreamy cheesecake brownies? A surreally good reason to go fetch a spoon. Enjoy!",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Cherry Garcia®",
+"img": "",
+  "description": "Cherry Ice Cream with Cherries & Fudge Flakes",
+  "story": "Our euphorically edible tribute to guitarist Jerry Garcia & Grateful Dead fans everywhere, it’s the first ice cream named for a rock legend and the most famous of our fan-suggested flavors.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Chocolate Chip Cookie Dough",
+  "img": "",
+  "description": "Vanilla Ice Cream with Gobs of Chocolate Chip Cookie Dough",
+  "story": "We knew we were onto something big when we made the world’s first batch of Chocolate Chip Cookie Dough ice cream in 1984. Today the flavor still reigns among our all-time most popular concoctions.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Chocolate Fudge Brownie",
+  "img": "",
+  "description": "Chocolate Ice Cream with Fudge Brownies",
+  "story": "The fabulously fudgy brownies in this flavor come from New York’s Greyston Bakery, where producing great baked goods is part of their greater-good mission to provide jobs and training to low-income city residents.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Chocolate Therapy®",
+  "img": "",
+  "description": "Chocolate Ice Cream with Chocolate Cookies & Swirls of Chocolate Pudding Ice Cream",
+  "story": "You know how sometimes you just want to scream? You could just scream, or you could grab a spoon, get a grip, and treat yourself to some primal s'cream therapy of the sublimest chocolate kind. (Euphoria may occur upon tasting.)",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Chubby Hubby®",
+  "img": "",
+  "description": "Vanilla Malt Ice Cream with Peanutty Fudge-Covered Pretzels with Fudge & Peanut Buttery Swirls",
+  "story": "Two tricksters convinced a co-worker this flavor really existed (it didn’t), then felt guilty and made him an actual batch packed with pretzels, peanut butter & fudge. He loved it, so did we, and the rest is history. Enjoy!",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Chunky Monkey®",
+  "img": "",
+  "description": "Banana Ice Cream with Fudge Chunks & Walnuts",
+  "story": "To create a flavor as fun as the name, we monkeyed around with bunches of test batches until we knew we had a winner: the nuttiest chocolatey-chunkiest concoction-gone-bananas you'll ever go ape for.",
+  "productId": "616"
+},
+{
+  "name": "Cinnamon Buns®",
+  "img": "",
+  "description": "Caramel Ice Cream with Cinnamon Bun Dough & a Cinnamon Streusel Swirl",
+  "story": "Our cool salute to cinnamon buns is so cinnamon-streuseled & dough-loaded, there's no telling where the cinnamon buns end or the ice cream begins. That's because it's one fun flavor all the way through. Enjoy!",
+
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Coconuts for Caramel Core",
+  "img": "",
+  "description": "Caramel & Sweet Cream Coconut Ice Creams with Fudge Flakes & a Caramel Core",
+  "story": "How do you spoon your way to euphoria? Do you start with a cool cruise through fudge-kissed coconutty ocean, a quick dip in the caramel sea, or a thrill-dive deep in the well of thick, gooey caramel? Well?",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Coffee Toffee Bar Crunch",
+  "img": "",
+  "description": "Coffee Ice Cream with Fudge-Covered Toffee Pieces",
+  "story": "Coffee What Bar Crunch? We gave this flavor a new name to go with the new toffee bars we’re using as part of our commitment to source Fairtrade Certified and non-GMO ingredients. We love it and know you will too!",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Coffee, Coffee BuzzBuzzBuzz!®",
+  "img": "",
+  "description": "Coffee Ice Cream with Espresso Bean Fudge Chunks",
+  "story": "Somewhere between the creamy coffee coffee ice cream and the buzzbuzzbuzz of espresso fudge, it hits you: you’re wide awake and in lovelovelove.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Cookies & Cream Cheesecake Core",
+  "img": "",
+  "description": "Chocolate & Cheesecake Ice Creams with Chocolate Cookies & a Cheesecake Core",
+  "story": "What's it called when you find yourself spoon-deep in a rich center of cheesecake in the middle of a cool ice cream universe of chocolate, cheesecake & cookies? A Core encounter of the Ben & Jerriest kind.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Everything But The...®",
+  "img": "",
+  "description": "A Collision of Chocolate & Vanilla Ice Creams mixed with Peanut Butter Cups, Fudge-Covered Toffee Pieces, White Chocolatey Chunks & Fudge-Covered Almonds",
+  "story": "We've combined some of your most favorite Ben & Jerry's flavors & swirled them into even bigger show-stoppers. Now you can enjoy them in tasty, twisted tandem!",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Half Baked®",
+  "image_closed": "/files/live/sites/systemsite/files/flavors/products/us/pint/open-closed-pints/half-baked-landing.png",
+  "image_open": "/files/live/sites/systemsite/files/flavors/products/us/pint/open-closed-pints/half-baked-landing-open.png",
+  "description": "Chocolate & Vanilla Ice Creams mixed with Gobs of Chocolate Chip Cookie Dough & Fudge Brownies",
+  "story": "Ben & Jerry’s is proud to partner with fellow B Corps Greyston and Rhino Bakeries to bring you half baked. The incredible stories behind both the fudge brownies & cookie dough make this a flavor that not only tastes good, but does good.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Karamel Sutra® Core",
+ "img": "",
+  "description": "Chocolate & Caramel Ice Creams with Fudge Chips & a Soft Caramel Core",
+  "story": "Find your way to the ultimate ice cream experience with our Cores. Whether your primal urges lead you to the center of soft caramel or directly to the fudge chips, you’ll be in total control of your own ice cream destiny.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Keep Caramel & Cookie On™",
+ "img": "",
+  "description": "Caramel Malt Ice Cream with Shortbread Cookies, Fudge Flakes & Caramel Swirls",
+  "story": "Our chunk-n-swirl-filled tribute to the famous words of encouragement is a well-caramelled flavor loaded with shortbread cookies galore. In other words, there’s a whole lotta caramel & cookie euphoria aheadia, so keep calm & spoon on!",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Milk & Cookies",
+  "img": "",
+  "description": "Vanilla Ice Cream with a Chocolate Cookie Swirl, Chocolate Chip & Chocolate Chocolate Chip Cookies",
+  "story": "How do you take classic milk-&-cookie goodness to a whole 'nother level of greatness? We don’t really know what that means, but we know this flavor’s loaded with the most euphoric assortment of cookies we ever dunked, chunked & swirled in our ice cream.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Mint Chocolate Cookie",
+  "img": "",
+  "description": "Peppermint Ice Cream with Chocolate Sandwich Cookies",
+  "story": "In case you’ve ever wondered what makes this wintry flavor so wicked cool to luge a spoon through: it’s the pepperminty excellence we packed in it, not to mention all those chocolate sandwich cookie moguls. Enjoy!",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "New York Super Fudge Chunk®",
+  "img": "",
+  "description": "Chocolate Ice Cream with White & Dark Fudge Chunks, Pecans, Walnuts & Fudge-Covered Almonds",
+  "story": "In 1985, to make a name for ourselves in New York, we picked a New York kind of name and created a flavor packed with more kinds of chunks than ever before. We figured if the flavor was euphoric in New York, it would be everywhere. It was, and it is.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Oat of This Swirled™",
+  "img": "",
+  "description": "Buttery Brown Sugar Ice Cream with Fudge Flakes & Oatmeal Cinnamon Cookie Swirls",
+  "story": "When’s the best time to enjoy this blissful mix of brown sugar ice cream with otherworldly swirls of cinnamony oatmeal cookies? Any time between breakfast and bed, from now ‘til whenever.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Peanut Buttah Cookie Core",
+"img": "",
+  "description": "Peanut Butter Ice Cream with Crunchy Peanut Butter Sugar Bits, Peanut Butter Cookies & a Peanut Butter Cookie Core",
+  "story": "For p.b. fans & cookie spread-heads who want it all, here’s a flavor that delivers it, from the creamy to the crunchy to the peanutty core of crushed-cookie stuff that spreads like buttah (and tastes even bettah).",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Peanut Butter Cup",
+  "img": "",
+  "description": "Peanut Butter Ice Cream with Peanut Butter Cups",
+  "story": "We interrupt our regularly scheduled programming to remind you how much you love ice cream that’s perfectly peanut buttery & peanut butter cuppity at the same time.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Peanut Butter Fudge Core",
+  "img": "",
+  "description": "Chocolate & Peanut Butter Ice Creams with Mini Peanut Butter Cups & a Peanut Butter Fudge Core",
+  "story": "Find your way to the ultimate ice cream experience with our Cores. Whether your primal urges lead you to the center of peanut butter fudge or directly to the peanut butter cups, you’ll be in total control of your own ice cream destiny.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Peanut Butter World®",
+  "img": "",
+  "description": "Milk Chocolate Ice Cream with Peanut Buttery Swirls & Chocolate Cookie Swirls",
+  "story": "What makes Ben & Jerry's so euphoric? Some say it's the legendary creamy-richness of our flavor creations. Others say it's the tastebud-boggling combinations of spoon-bending chunks & perfect swirls. We say, \"Enjoy!\"",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Phish Food®",
+ "img": "",
+  "description": "Chocolate Ice Cream with Gooey Marshmallow Swirls, Caramel Swirls & Fudge Fish",
+  "story": "“Ben was our neighbor through the woods & we're fond of ice cream. So we teamed up to create Phish Food®. A portion of our royalties from this flavor goes toward environmental efforts in Vermont's Lake Champlain Watershed. Enjoy!” PHISH",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Pistachio Pistachio",
+  "img": "",
+  "description": "Pistachio Ice Cream with Lightly Roasted Pistachios",
+  "story": "The name alone shows how much we love pistachios. But don't just take our word for it - let the flavor speak for itself!",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Pumpkin Cheesecake",
+  "img": "",
+  "description": "Pumpkin Cheesecake Ice Cream with a Graham Cracker Swirl",
+  "story": "We took the great taste of pumpkin cheesecake & gave it an ice cream upgrade, complete with a complementary graham cracker swirl, so it's more than just a great flavor: it's a first-class ticket to pumpkin wonderful.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Red Velvet Cake",
+  "image_closed": "/files/live/sites/systemsite/files/flavors/products/us/pint/open-closed-pints/red-velvet-landing.png",
+  "image_open": "/files/live/sites/systemsite/files/flavors/products/us/pint/open-closed-pints/red-velvet-landing-open.png",
+  "description": "Red Velvet Cake Ice Cream with Red Velvet Cake Pieces & a Cream Cheese Frosting Swirl",
+  "story": "From the velvety-rich ice cream packed with actual cake pieces to the dreamy cream cheese frosting, there's a whole lotta Red Velvet Cake revelry aheadia – & it's best to revel in it before it melts. Enjoy!",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "S'mores",
+"img": "",
+  "description": "Chocolate Ice Cream with Fudge Chunks, Toasted Marshmallow & Graham Cracker Swirls",
+  "story": "Remember when cookouts & campfires kindled your cravings for s'mores, glorious s’mores? We loaded this flavor with all the stuff that makes s’mores so glorious, so you can kindle your cravings whenever, no campfires required.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Salted Caramel Almond",
+  "img": "",
+  "description": "Vanilla Bean Ice Cream with Roasted Almond Slivers, Fudge Flakes & a Salted Caramel Swirl",
+  "story": "What makes Ben & Jerry’s so euphoric? Some say it’s the legendary creamy-richness of our flavor creations. Others say it’s the tastebud-boggling combinations of spoon-bending chunks & perfect swirls. We say, “Enjoy!\"",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Salted Caramel Core",
+  "img": "",
+  "description": "Sweet Cream Ice Cream with Blonde Brownies & a Salted Caramel Core",
+  "story": "Find your way to the ultimate ice cream experience with our Cores. Whether your primal urges lead you to the center of salted caramel or directly to the blonde brownies, you’ll be in total control of your own ice cream destiny.",
+  "productId": "1120"
+},
+{
+  "name": "Spectacular Speculoos™ Cookie Core",
+  "img": "",
+  "description": "Dark Caramel & Vanilla Ice Creams with Speculoos Cookies & a Speculoos Cookie Butter Core",
+  "story": "To feed your fascination for that spectacular crushed-cookie spread with the funny-looking name, you could tease into the cinnamony-spiced speculoos cookies first, or spoon-dive directly into the cookified core of speculoos cookie butter.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Strawberry Cheesecake",
+"img": "",
+  "description": "Strawberry Cheesecake Ice Cream with Strawberries & a Thick Graham Cracker Swirl",
+  "story": "For strawberry cheesecake lovers who’ve always wanted to have their cheesecake & scoop it, too, we’ve created a flavor jam-packed with strawberry cheesecake-greatness & a fantastic graham-cracker swirl.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "The Tonight Dough®",
+ "img": "",
+  "description": "Caramel & Chocolate Ice Creams with Chocolate Cookie Swirls & Gobs of Chocolate Chip Cookie Dough & Peanut Butter Cookie Dough.",
+  "story": "Inspired by the show & host we love staying up late for, here's a flavor you'll love spooning into - dedicated to SeriousFun Children's Network of global camps for children with serious illnesses. Learn more at seriousfunnetwork.org.",
+     "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Triple Caramel Chunk®",
+  "img": "",
+  "description": "Caramel Ice Cream with a Swirl of Caramel & Fudge-Covered Caramel Chunks",
+  "story": "Caramel lovers won’t want to miss a single moment of this must-eat caramel thrillogy, starring creamy caramel ice cream, gooey caramel swirls, and chewy caramel chunks. They probably won’t want it to end, either. Enjoy!",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Truffle Kerfuffle™",
+  "img": "",
+  "description": "Vanilla Ice Cream with Roasted Pecans, Fudge Chips & a Salted Chocolate Ganache Swirl",
+  "story": "From the rich collision of sweet vanilla & salty chocolate, to the chunky ruckus of pecans & fudge, it’s the truffle kerfuffle of the century, & you’ve got nothing to lose but your spoon.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Urban Bourbon™",
+"img": "",
+  "description": "Burnt Caramel Ice Cream with Almonds, Fudge Flakes & Bourbon Caramel Swirls",
+  "story": "Want to enjoy a night on the town without leaving the house? Treat yourself to a caramel concoction that’s bold, toasty and bourbon-swirled, with lots of nuts and fudge for fun.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Vanilla",
+"img": "",
+  "description": "Vanilla Ice Cream",
+  "story": "When you dig into this pint, you’ll find a rich, creamy Vanilla that’s more vanilla-tasting than any Vanilla you’ve ever tasted.",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Vanilla Caramel Fudge",
+  "img": "",
+  "description": "Vanilla Ice Cream with Swirls of Caramel & Fudge",
+  "story": "If you’ve been looking for reasons to try something chunkless, this container holds a Vanilla-rich, fudge-luscious & caramel-gooey pintful of them. Enjoy!",
+   "cost": 5,
+   "rating"": [1,2,3]
+},
+{
+  "name": "Vanilla Toffee Bar Crunch",
+  "img": "",
+  "description": "Vanilla Ice Cream with Fudge-Covered Toffee Pieces",
+  "story": "Vanilla What Bar Crunch? We gave this flavor a new name to go with the new toffee bars we’re using as part of our commitment to source Fairtrade Certified and non-GMO ingredients. We love it and know you will too!",
+   "cost": 5,
+   "rating"": [1,2,3]
+}
+]
