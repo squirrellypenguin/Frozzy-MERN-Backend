@@ -4,7 +4,7 @@
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBdiEA7bFW3O6Yz25H6bjHe6oS-fD5reOTyg&usqp=CAU",
   "description": "Caramel Cheesecake Ice Cream with Graham Cracker-Covered Cheesecake Truffles & Chocolate Cookie Swirls",
   "story": "In your cheesecake dreams, is it like you’re spooning through a world of caramel cheesecake ice cream swirled with chocolate cookies in a wonderland of truffles filled with cheesecake? Hello? You can wake up now…",
-   "cost": 5,
+   "cost": 2.25,
    "rating": [1,2,3]
 },
 {
@@ -13,7 +13,7 @@
   "description": "Cold Brew Coffee Ice Cream with Chocolate Cookie-Covered Coffee Liqueur Truffles & Fudge Swirls",
   "story": "Our cold brew coffee ice cream not only delivers a chillacious blast of creamy caffeination, it’s also loaded with enough coffee liqueur-filled, cookie crumble-covered truffles to fuel a truffolution.",
  
-   "cost": 5,
+   "cost": 5.50,
    "rating": [1,2,3]
 },
 {
@@ -22,7 +22,7 @@
   "description": "Chocolate Malt Milkshake Ice Cream with Chocolate Cookie-Covered Fudge Truffles & Marshmallow Swirls",
   "story": "For those who prefer their ice cream shaken, swirled, and truffled, here’s a chocolate malt milkshake and marshmallow creation we truffled up with euphoric morsels of cookie crumble-covered fudge.",
  
-   "cost": 5,
+   "cost": 15.00,
    "rating": [1,2,3]
 },
 {
@@ -31,7 +31,7 @@
   "description": "Coffee Caramel Ice Creams with Fudge Chunks & Swirls of Marshmallow & Salted Caramel",
   "story": "At Ben & Jerry’s, we believe the world is sweetest when we stand together as one. That’s why we’re asking you to join us in digging deeper to understand issues of racial justice in America. Learn more and take action at benjerry.com/digdeeper",
  
-   "cost": 5,
+   "cost": 5.65,
    "rating": [1,2,3]
 },
 {
@@ -40,7 +40,7 @@
   "description": "Vanilla Ice Cream with Fudge-Covered Waffle Cone Pieces & a Caramel Swirl",
   "story": "Founded in fudge-covered waffle cones, this caramel-swirled concoction is the only flavor that gets a s'cream of approval from The Late Show host, Stephen Colbert. What's sweeter is this flavor supports charitable causes through The Stephen Colbert AmeriCone Dream Fund.",
 
-   "cost": 5,
+   "cost": 4.78,
    "rating": [1,2,3]
 },
 {
@@ -49,7 +49,7 @@
   "description": "Banana & Strawberry Ice Creams with Walnuts, Fudge Chunks & a Fudge Swirl",
   "story": "We turned the classic ice cream parlor sundae you've always loved into the at-home flavor creation you've always wanted. Enjoy!",
  
-   "cost": 5,
+   "cost": 3.35,
    "rating": [1,2,3]
 },
 {
@@ -58,7 +58,7 @@
   "description": "Buttery Brown Sugar Ice Cream with Blonde Brownies and Butterscotch Toffee Flakes",
   "story": "What makes Ben & Jerry's so euphoric? Some say it's the legendary creamy-richness of our flavor creations. Others say it's the tastebud-boggling combinations of spoon-bending chunks & perfect swirls. We say, \"Enjoy!\"",
  
-   "cost": 5,
+   "cost": 2.25,
    "rating": [1,2,3]
 },
 {
@@ -67,16 +67,16 @@
   "description": "Mocha & Caramel Ice Creams with Chocolate Cookies, Fudge Flakes & a Chocolate Cookie Core",
   "story": "As you slam dunk your spoon through creamy mocha & caramel to celebrate the epic chocolate cookie-spread core, your technique may not be perfect, but the victory’s perfectly delicious.",
 
-   "cost": 5,
+   "cost": 5.10,
    "rating": [1,2,3]
 },
 {
   "name": "Bourbon Pecan Pie",
-  "img": "",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffavq0GNXBv6lJWhN3UlZj1fnmcatfK1LGA&usqp=CAU",
   "description": "Buttery Bourbon Ice Cream with Pecans, Shortbread Cookie Pieces & a Whiskey Caramel Swirl",
   "story": "Not long ago we scoop-toured through Texas asking you to elect the best of two Texas-inspired flavors. Thanks to you this bourbon-y whirl of pecans and cookies wrapped in whiskey-kissed caramel is now available Tex-clusively!",
  
-   "cost": 5,
+   "cost": 5.15,
    "rating": [1,2,3]
 },
 {
@@ -85,15 +85,15 @@
   "description": "Coffee Ice Cream with Fudge Chunks & a Brownie Batter Swirl",
   "story": "We're thrilled to add this made-to-matter, brownie batter-swirled batchful of coffee awesomeness to the Ben & Jerry's family of flavors. It packs a powerful pintful of goodness that's guaranteed to amaze you with every consciously concocted bite.",
 
-   "cost": 5,
+   "cost": 15.00,
    "rating": [1,2,3]
 },
 {
   "name": "Brownie Batter Core",
- "img": "",
+ "img": "https://simpleveganblog.com/wp-content/uploads/2021/07/banana-ice-cream-2.jpg",
   "description": "Chocolate & Vanilla Ice Creams with Fudge Brownies & a Brownie Batter Core",
   "story": "Spooning your way to brownie nirvana? Smack dab in the middle of this brownie-chunk-filled ice cream there's a core of unbaked brownie batter calling your name. No, really. We heard it.",
-   "cost": 5,
+   "cost": 3.00,
    "rating": [1,2,3]
 },
 {
@@ -101,7 +101,7 @@
 "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffavq0GNXBv6lJWhN3UlZj1fnmcatfK1LGA&usqp=CAU",
   "description": "Cheesecake Ice Cream with Cheesecake Brownie Chunks",
   "story": "What do you call a creamy cheesecake ice cream filled with dreamy cheesecake brownies? A surreally good reason to go fetch a spoon. Enjoy!",
-   "cost": 5,
+   "cost": 3.50,
    "rating": [1,2,3]
 },
 {
@@ -109,7 +109,7 @@
 "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRCUAHOMbogxX9XPLkVivMDiIxM6usQkGBqw&usqp=CAU",
   "description": "Cherry Ice Cream with Cherries & Fudge Flakes",
   "story": "Our euphorically edible tribute to guitarist Jerry Garcia & Grateful Dead fans everywhere, it’s the first ice cream named for a rock legend and the most famous of our fan-suggested flavors.",
-   "cost": 5,
+   "cost": 5.00,
    "rating": [1,2,3]
 },
 {
@@ -117,7 +117,7 @@
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGQywdf16EhbNfTpJdpdzkekUg_g0FQc4Z8A&usqp=CAU",
   "description": "Vanilla Ice Cream with Gobs of Chocolate Chip Cookie Dough",
   "story": "We knew we were onto something big when we made the world’s first batch of Chocolate Chip Cookie Dough ice cream in 1984. Today the flavor still reigns among our all-time most popular concoctions.",
-   "cost": 5,
+   "cost": 3.45,
    "rating": [1,2,3]
 },
 {
@@ -125,7 +125,7 @@
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSo6w5p3ZAjRntRjL5FkQ1BQvKrt4WMFGVag&usqp=CAU",
   "description": "Chocolate Ice Cream with Fudge Brownies",
   "story": "The fabulously fudgy brownies in this flavor come from New York’s Greyston Bakery, where producing great baked goods is part of their greater-good mission to provide jobs and training to low-income city residents.",
-   "cost": 5,
+   "cost": 5.00,
    "rating": [1,2,3]
 },
 {
@@ -133,7 +133,7 @@
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGQywdf16EhbNfTpJdpdzkekUg_g0FQc4Z8A&usqp=CAU",
   "description": "Chocolate Ice Cream with Chocolate Cookies & Swirls of Chocolate Pudding Ice Cream",
   "story": "You know how sometimes you just want to scream? You could just scream, or you could grab a spoon, get a grip, and treat yourself to some primal s'cream therapy of the sublimest chocolate kind. (Euphoria may occur upon tasting.)",
-   "cost": 5,
+   "cost": 5.78,
    "rating": [1,2,3]
 },
 {
@@ -141,7 +141,7 @@
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXK00jATaZ2Ao17UDw3b-8zXL17knrMF_x9Q&usqp=CAU",
   "description": "Vanilla Malt Ice Cream with Peanutty Fudge-Covered Pretzels with Fudge & Peanut Buttery Swirls",
   "story": "Two tricksters convinced a co-worker this flavor really existed (it didn’t), then felt guilty and made him an actual batch packed with pretzels, peanut butter & fudge. He loved it, so did we, and the rest is history. Enjoy!",
-   "cost": 5,
+   "cost": 5.12,
    "rating": [1,2,3]
 },
 {
@@ -157,7 +157,7 @@
   "description": "Caramel Ice Cream with Cinnamon Bun Dough & a Cinnamon Streusel Swirl",
   "story": "Our cool salute to cinnamon buns is so cinnamon-streuseled & dough-loaded, there's no telling where the cinnamon buns end or the ice cream begins. That's because it's one fun flavor all the way through. Enjoy!",
 
-   "cost": 5,
+   "cost": 5.00,
    "rating": [1,2,3]
 },
 {
@@ -165,7 +165,7 @@
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSo6w5p3ZAjRntRjL5FkQ1BQvKrt4WMFGVag&usqp=CAU",
   "description": "Caramel & Sweet Cream Coconut Ice Creams with Fudge Flakes & a Caramel Core",
   "story": "How do you spoon your way to euphoria? Do you start with a cool cruise through fudge-kissed coconutty ocean, a quick dip in the caramel sea, or a thrill-dive deep in the well of thick, gooey caramel? Well?",
-   "cost": 5,
+   "cost": 5.00,
    "rating": [1,2,3]
 },
 {
@@ -173,7 +173,7 @@
   "img": "",
   "description": "Coffee Ice Cream with Fudge-Covered Toffee Pieces",
   "story": "Coffee What Bar Crunch? We gave this flavor a new name to go with the new toffee bars we’re using as part of our commitment to source Fairtrade Certified and non-GMO ingredients. We love it and know you will too!",
-   "cost": 5,
+   "cost": 5.00,
    "rating": [1,2,3]
 },
 {
@@ -181,7 +181,7 @@
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXK00jATaZ2Ao17UDw3b-8zXL17knrMF_x9Q&usqp=CAU",
   "description": "Coffee Ice Cream with Espresso Bean Fudge Chunks",
   "story": "Somewhere between the creamy coffee coffee ice cream and the buzzbuzzbuzz of espresso fudge, it hits you: you’re wide awake and in lovelovelove.",
-   "cost": 5,
+   "cost": 4.45,
    "rating": [1,2,3]
 },
 {
@@ -189,7 +189,7 @@
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu62o-9P7Gliqx2eO7lKipJpTh0SMRqc7_Ew&usqp=CAU",
   "description": "Chocolate & Cheesecake Ice Creams with Chocolate Cookies & a Cheesecake Core",
   "story": "What's it called when you find yourself spoon-deep in a rich center of cheesecake in the middle of a cool ice cream universe of chocolate, cheesecake & cookies? A Core encounter of the Ben & Jerriest kind.",
-   "cost": 5,
+   "cost": 10.00,
    "rating": [1,2,3]
 }
 ]
