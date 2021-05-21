@@ -52,4 +52,17 @@ router.get('/:id', async (req, res) => {
     res.json(creem)
 });
 
+//GET Route for partial search on name 
+
+router.get("/search/:search", async (req, res) => {
+  try {
+  res.json(await Creem.find({ name: { $regex: req.params.search, $options: "i" } }));
+}
+catch (error) {
+  // return error as JSON with an error status
+  res.status(400).json(error);
+}
+});
+
+
 module.exports = router;

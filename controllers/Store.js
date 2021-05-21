@@ -45,6 +45,34 @@ catch (error) {
 }
 });
 
+
+//GET route for single store
+router.get("/data/:id", async (req, res) => {
+  try {
+  res.json(await Store.findById(req.params.id));
+}
+catch (error) {
+  // return error as JSON with an error status
+  res.status(400).json(error);
+}
+});
+
+
+//GET Route for partial search on name 
+
+router.get("/search/:search", async (req, res) => {
+  try {
+  res.json(await Store.find({ name: { $regex: req.params.search, $options: "i" } }));
+}
+catch (error) {
+  // return error as JSON with an error status
+  res.status(400).json(error);
+}
+});
+
+
+
+
 // CREATE Route
 router.post("/", async (req, res) => {
   try {
