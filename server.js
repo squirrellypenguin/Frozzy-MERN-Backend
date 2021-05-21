@@ -18,12 +18,12 @@ const app = express();
 
 //OTHER IMPORTS
 const morgan = require("morgan");
-const todoRouter = require("./controllers/Todo");
-
+const storeRouter = require("./controllers/Store");
+const creemRouter = require("./controllers/Creem");
 ////////////
 //MIDDLEWARE
 ////////////
-
+let NODE_ENV = 'producion'
 NODE_ENV === "production" ? app.use(cors(corsOptions)) : app.use(cors());
 app.use(express.json());
 app.use(morgan("tiny")); //logging
@@ -38,7 +38,8 @@ app.get("/", (req, res) => {
 });
 
 // Dog Routes send to dog router
-app.use("/todo", todoRouter);
+// app.use("/store", storeRouter);
+app.use("/creem", creemRouter);
 
 //LISTENER
 app.listen(PORT, () => {

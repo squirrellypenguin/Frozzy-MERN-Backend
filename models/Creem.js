@@ -11,7 +11,7 @@ const creemSchema = new Schema({
 	description: String,
 	img: String,
 	cost: Number,
-	rating: Number
+	rating: [{ type: Number}]
 }, {
     timestamps: true
 });
