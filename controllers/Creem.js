@@ -64,5 +64,24 @@ catch (error) {
 }
 });
 
+// update Route for the rating
+router.put("/rating/:id", async (req, res) => {
+  console.log(req.body.rating)
+  try {
+    
+    // pass the request body to update and existing place in the database
+    const updatedCreem = await Creem.findByIdAndUpdate(
+      req.params.id,
+      { $push: {rating: req.body.rating}},
+      { new: true }
+    );
+    // send newly updated place back as JSON
+    
+    res.json(updatedCreem);
+  } catch (error) {
+    // return error as JSON with an error status
+    res.status(400).json(error);
+  }
+});
 
 module.exports = router;

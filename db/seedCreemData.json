@@ -5,7 +5,7 @@
   "description": "Caramel Cheesecake Ice Cream with Graham Cracker-Covered Cheesecake Truffles & Chocolate Cookie Swirls",
   "story": "In your cheesecake dreams, is it like you’re spooning through a world of caramel cheesecake ice cream swirled with chocolate cookies in a wonderland of truffles filled with cheesecake? Hello? You can wake up now…",
    "cost": 2.25,
-   "rating": [1,2,3]
+   "rating": [2,2,2]
 },
 {
   "name": "Chillin' the Roast™",
@@ -32,7 +32,7 @@
   "story": "At Ben & Jerry’s, we believe the world is sweetest when we stand together as one. That’s why we’re asking you to join us in digging deeper to understand issues of racial justice in America. Learn more and take action at benjerry.com/digdeeper",
  
    "cost": 5.65,
-   "rating": [1,2,3]
+   "rating": [3,1,4]
 },
 {
   "name": "Americone Dream®",
@@ -110,7 +110,7 @@
   "description": "Cherry Ice Cream with Cherries & Fudge Flakes",
   "story": "Our euphorically edible tribute to guitarist Jerry Garcia & Grateful Dead fans everywhere, it’s the first ice cream named for a rock legend and the most famous of our fan-suggested flavors.",
    "cost": 5.00,
-   "rating": [1,2,3]
+   "rating": [3,1,4]
 },
 {
   "name": "Chocolate Chip Cookie Dough",
@@ -142,14 +142,14 @@
   "description": "Vanilla Malt Ice Cream with Peanutty Fudge-Covered Pretzels with Fudge & Peanut Buttery Swirls",
   "story": "Two tricksters convinced a co-worker this flavor really existed (it didn’t), then felt guilty and made him an actual batch packed with pretzels, peanut butter & fudge. He loved it, so did we, and the rest is history. Enjoy!",
    "cost": 5.12,
-   "rating": [1,2,3]
+   "rating": [3,1,4]
 },
 {
   "name": "Chunky Monkey®",
   "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSis-BbNwbY8P6FN1gGQhIi1N5hVkpGrBmQKg&usqp=CAU",
   "description": "Banana Ice Cream with Fudge Chunks & Walnuts",
   "story": "To create a flavor as fun as the name, we monkeyed around with bunches of test batches until we knew we had a winner: the nuttiest chocolatey-chunkiest concoction-gone-bananas you'll ever go ape for.",
-  "productId": "616"
+  "rating": [2,1,1]
 },
 {
   "name": "Cinnamon Buns®",
@@ -158,7 +158,7 @@
   "story": "Our cool salute to cinnamon buns is so cinnamon-streuseled & dough-loaded, there's no telling where the cinnamon buns end or the ice cream begins. That's because it's one fun flavor all the way through. Enjoy!",
 
    "cost": 5.00,
-   "rating": [1,2,3]
+   "rating": [3,1,4]
 },
 {
   "name": "Coconuts for Caramel Core",
@@ -174,7 +174,7 @@
   "description": "Coffee Ice Cream with Fudge-Covered Toffee Pieces",
   "story": "Coffee What Bar Crunch? We gave this flavor a new name to go with the new toffee bars we’re using as part of our commitment to source Fairtrade Certified and non-GMO ingredients. We love it and know you will too!",
    "cost": 5.00,
-   "rating": [1,2,3]
+   "rating": [3,1,4]
 },
 {
   "name": "Coffee, Coffee BuzzBuzzBuzz!®",

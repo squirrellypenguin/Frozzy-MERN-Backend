@@ -103,13 +103,33 @@ router.put("/:id", async (req, res) => {
   }
 });
 
-// update Route
+// update Route for the entire Store
 router.delete("/:id", async (req, res) => {
   try {
     // delete existing place in the database
     const deletedStore = await Store.findByIdAndRemove(req.params.id);
     // send delete place back as JSON
     res.json(deletedStore);
+  } catch (error) {
+    // return error as JSON with an error status
+    res.status(400).json(error);
+  }
+});
+
+// update Route for the rating
+router.put("/rating/:id", async (req, res) => {
+  console.log(req.body.rating)
+  try {
+    
+    // pass the request body to update and existing place in the database
+    const updatedStore = await Store.findByIdAndUpdate(
+      req.params.id,
+      { $push: {rating: req.body.rating}},
+      { new: true }
+    );
+    // send newly updated place back as JSON
+    
+    res.json(updatedStore);
   } catch (error) {
     // return error as JSON with an error status
     res.status(400).json(error);
