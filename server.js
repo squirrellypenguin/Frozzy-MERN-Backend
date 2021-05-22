@@ -20,6 +20,7 @@ const app = express();
 const morgan = require("morgan");
 const storeRouter = require("./controllers/Store");
 const creemRouter = require("./controllers/Creem");
+const userRouter = require("./controllers/User");
 ////////////
 //MIDDLEWARE
 ////////////
@@ -40,7 +41,7 @@ app.get("/", (req, res) => {
 // Dog Routes send to dog router
 app.use("/store", storeRouter);
 app.use("/creem", creemRouter);
-
+app.use("/user", userRouter);
 //LISTENER
 app.listen(PORT, () => {
   console.log(`Your are listening on port ${PORT}`);
