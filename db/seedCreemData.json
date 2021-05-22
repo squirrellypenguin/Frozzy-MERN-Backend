@@ -77,7 +77,7 @@
   "story": "Not long ago we scoop-toured through Texas asking you to elect the best of two Texas-inspired flavors. Thanks to you this bourbon-y whirl of pecans and cookies wrapped in whiskey-kissed caramel is now available Tex-clusively!",
  
    "cost": 5.15,
-   "rating": [1,2,3]
+   "rating": [5,5,5]
 },
 {
   "name": "Brewed to Matter™",
@@ -102,7 +102,7 @@
   "description": "Cheesecake Ice Cream with Cheesecake Brownie Chunks",
   "story": "What do you call a creamy cheesecake ice cream filled with dreamy cheesecake brownies? A surreally good reason to go fetch a spoon. Enjoy!",
    "cost": 3.50,
-   "rating": [1,2,3]
+   "rating": [1,1,1]
 },
 {
   "name": "Cherry Garcia®",
@@ -158,7 +158,7 @@
   "story": "Our cool salute to cinnamon buns is so cinnamon-streuseled & dough-loaded, there's no telling where the cinnamon buns end or the ice cream begins. That's because it's one fun flavor all the way through. Enjoy!",
 
    "cost": 5.00,
-   "rating": [3,1,4]
+   "rating": [4,4,4]
 },
 {
   "name": "Coconuts for Caramel Core",
@@ -166,11 +166,11 @@
   "description": "Caramel & Sweet Cream Coconut Ice Creams with Fudge Flakes & a Caramel Core",
   "story": "How do you spoon your way to euphoria? Do you start with a cool cruise through fudge-kissed coconutty ocean, a quick dip in the caramel sea, or a thrill-dive deep in the well of thick, gooey caramel? Well?",
    "cost": 5.00,
-   "rating": [1,2,3]
+   "rating": [1,5,3]
 },
 {
   "name": "Coffee Toffee Bar Crunch",
-  "img": "",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSis-BbNwbY8P6FN1gGQhIi1N5hVkpGrBmQKg&usqp=CAU",
   "description": "Coffee Ice Cream with Fudge-Covered Toffee Pieces",
   "story": "Coffee What Bar Crunch? We gave this flavor a new name to go with the new toffee bars we’re using as part of our commitment to source Fairtrade Certified and non-GMO ingredients. We love it and know you will too!",
    "cost": 5.00,
@@ -190,6 +190,6 @@
   "description": "Chocolate & Cheesecake Ice Creams with Chocolate Cookies & a Cheesecake Core",
   "story": "What's it called when you find yourself spoon-deep in a rich center of cheesecake in the middle of a cool ice cream universe of chocolate, cheesecake & cookies? A Core encounter of the Ben & Jerriest kind.",
    "cost": 10.00,
-   "rating": [1,2,3]
+   "rating": [1,1,1]
 }
 ]
