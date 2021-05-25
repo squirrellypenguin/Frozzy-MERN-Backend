@@ -63,8 +63,8 @@ router.delete("/:id", async (req, res) => {
   res.json(await User.findByIdAndRemove(req.params.id));
 });
 
-//GET route for single store
-router.get("/data/:id", async (req, res) => {
+//GET route for single 
+router.get("/:id", async (req, res) => {
   try {
   res.json(await User.findById(req.params.id));
 }

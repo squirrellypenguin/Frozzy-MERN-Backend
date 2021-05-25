@@ -43,8 +43,38 @@ Basic API structure [Frozzy](https://github.com/squirrellypenguin/frozzy-fronten
 		* `/creem/:id` - Update any part of the entry
 		* `/creem/rating/:id` - Adds rating to the array in the collection	
 	* POST
-		* `/creem` - Create new store
+		* `/creem` - Create new creem
 	* DELETE
-		* `/creem/:id` - Remove store
+		* `/creem/:id` - Remove creem
 	* SEED
 		* `/creem/seed` - Clear and populate DB
+
+**Model User**
+```
+		user: String,
+  		first: String,
+		  last: String,
+		  email: String,
+		  phone: Number,
+		  address: String,
+		  city: String,
+		  state: String,
+		  zip: Number,
+		  faves: [String], <- need to restrict to ObjectId of Creem then cross populate possible
+
+		  img: String
+```
+* Routes
+	* GETS
+		* `/user/:id` - Returns user based on DB uni_id
+		* `/user` - Returns all users
+	
+	* PUTS
+		* `/user/:id` - Update any part of the entry
+		* `/user/faves/:id` - Adds rating to the array in the collection	
+	* POST
+		* `/user` - Create new user
+	* DELETE
+		* `/user/:id` - Remove user
+	* SEED
+		* `/user/seed` - Clear and populate DB
