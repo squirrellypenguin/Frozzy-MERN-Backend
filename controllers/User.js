@@ -9,18 +9,21 @@ const User = require("../models/Users");
 // SEED DATA FOR SEED ROUTE
 const userSeed = [
   {
-  first: "John",
-  last: "Doe",
-  faves: ['doesnt matter for nows']
+  "user": "User1",
+  "first": "John",
+  "last": "Doe"
+  
    },
    {
-    first: "Jane",
-    last: "Eod",
-    faves: []
+  	"user": "User2",
+    "first": "Jane",
+    "last": "Eod"
+    
      },  {
-        first: "Pat",
-        last: "Mid",
-        faves: []
+    	"user": "User 3",
+        "first": "Pat",
+        "last": "Mid"
+        
          }
 ];
 
@@ -35,7 +38,7 @@ router.get("/seed", async (req, res) => {
     // add the seed data to the database
     await User.create(userSeed);
     // get full list of places to confirm seeding worked
-    const users = await Store.find({});
+    const users = await User.find({});
     // return full list of places as JSON
     res.json(users);
   } catch (error) {
@@ -55,8 +58,25 @@ catch (error) {
 }
 });
 
-// update Route for the rating
-router.put("/rating/:id", async (req, res) => {
+//DElete Route
+router.delete("/:id", async (req, res) => {
+  res.json(await User.findByIdAndRemove(req.params.id));
+});
+
+//GET route for single store
+router.get("/data/:id", async (req, res) => {
+  try {
+  res.json(await User.findById(req.params.id));
+}
+catch (error) {
+  // return error as JSON with an error status
+  res.status(400).json(error);
+}
+});
+
+
+// update Route for the favorites
+router.put("/faves/:id", async (req, res) => {
     console.log(req.body.faves)
     console.log(req.body)
     console.log(typeof req.body.faves)
@@ -84,6 +104,22 @@ router.put("/rating/:id", async (req, res) => {
       const newUser = await User.create(req.body);
       // send newly created place back as JSON
       res.json(newUser);
+    } catch (error) {
+      // return error as JSON with an error status
+      res.status(400).json(error);
+    }
+  });
+
+  router.put("/:id", async (req, res) => {
+    try {
+      // pass the request body to update and existing place in the database
+      const updatedUser = await User.findByIdAndUpdate(
+        req.params.id,
+        req.body,
+        { new: true }
+      );
+      // send newly updated place back as JSON
+      res.json(updatedUser);
     } catch (error) {
       // return error as JSON with an error status
       res.status(400).json(error);

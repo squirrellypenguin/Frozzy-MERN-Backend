@@ -7,6 +7,7 @@ const model = mongoose.model;
 
 // Create Place Schema
 const userSchema = new Schema({
+	user: String,
   		first: String,
 		  last: String,
 		  email: String,
