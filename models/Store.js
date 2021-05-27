@@ -11,7 +11,8 @@ const storeSchema = new Schema({
 		  description: String,
 		img: String,
 		location: String,
-		rating: [Number]
+		rating: [Number],
+		order: [Schema.Types.ObjectId]
 }, {
     timestamps: true
 });

@@ -1,6 +1,7 @@
 // Import Mongoose
 const mongoose = require("mongoose");
-
+const Orders = require('../models/Orders')
+const Creems = require('../models/Creem')
 // Pull Schema and model from mongoose
 const Schema = mongoose.Schema;
 const model = mongoose.model;
@@ -16,7 +17,8 @@ const userSchema = new Schema({
 		  city: String,
 		  state: String,
 		  zip: Number,
-		  faves: [String], 
+		  order: [{type: Schema.Types.ObjectId, ref: 'Orders'}],
+		  faves: [{type: Schema.Types.ObjectId, ref: 'Creems'}],
 
 		  img: String
 		
