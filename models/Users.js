@@ -18,7 +18,7 @@ const userSchema = new Schema({
 		  state: String,
 		  zip: Number,
 		  order: [{type: Schema.Types.ObjectId, ref: 'Orders'}],
-		  faves: [{type: Schema.Types.ObjectId, ref: 'Creem', required: true, unique: true }],
+		  faves: [{type: Schema.Types.ObjectId, ref: 'Creem', unique: true }],
 
 		  img: String
 		
