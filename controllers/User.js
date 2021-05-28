@@ -75,7 +75,7 @@ catch (error) {
 });
 
 
-// update Route for the favorites
+// update Route for the favorites will only set if unqiue 
 router.put("/faves/:id", async (req, res) => {
     console.log(req.body.faves)
     console.log(req.body)
@@ -85,7 +85,7 @@ router.put("/faves/:id", async (req, res) => {
       // pass the request body to update and existing place in the database
       const updatedUserFaves = await User.findByIdAndUpdate(
         req.params.id,
-        { $push: {faves: req.body.faves}},
+        { $addToSet: {faves: req.body.faves}},
         { new: true }
       );
       // send newly updated place back as JSON
@@ -96,6 +96,30 @@ router.put("/faves/:id", async (req, res) => {
       res.status(400).json(error);
     }
   });
+  
+
+  // will remove the fave from the user 
+  router.put("/faves/remove/:id", async (req, res) => {
+    console.log(req.body.faves)
+    console.log(req.body)
+    console.log(typeof req.body.faves)
+    try {
+      
+      // pass the request body to update and existing place in the database
+      const updatedUserFaves = await User.findByIdAndUpdate(
+        req.params.id,
+        { $pull: {faves: req.body.faves}},
+        { new: true }
+      );
+      // send newly updated place back as JSON
+      
+      res.json(updatedUserFavs); 
+    } catch (error) {
+      // return error as JSON with an error status
+      res.status(400).json(error);
+    }
+  });
+  
 
   //CREATE NEW USER
   router.post("/", async (req, res) => {

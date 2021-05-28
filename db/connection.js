@@ -11,7 +11,7 @@ const MONGODB_URI = process.env.MONGODB_URI;
 const config = { useUnifiedTopology: true, useNewUrlParser: true };
 
 //Establish Connection to Database
-mongoose.connect(MONGODB_URI, config);
+mongoose.connect(MONGODB_URI, config,  { useFindAndModify: false });
 
 // Create Database Connection message for Open, Close, Error
 mongoose.connection

@@ -6,18 +6,19 @@ const Creem = require("../models/Creem")
 const Schema = mongoose.Schema;
 const model = mongoose.model;
 
+
 // Create Place Schema
 const orderSchema = new Schema({
-  		name: String,
-    	  user: [{type: Schema.Types.ObjectId, ref: 'User'}],
-		  creems: [{type: Schema.Types.ObjectId, ref: 'Creems'}],
+  		name: { type: String, required: true, index: { unique: true }},
+    	  user: {type: Schema.Types.ObjectId, ref: 'User', required: true},
+		  creems: [{type: Schema.Types.ObjectId, ref: 'Creems', required: true}]
 	
 }, {
     timestamps: true
 });
 
 // Create our Model Object
-const Order = model("Order", orderSchema);
+const Orders = model("Order", orderSchema);
 
 // Export our Model Object
-module.exports = Order;
+module.exports = Orders;

@@ -1,20 +1,29 @@
+
 // CREATE A NEW EXPRESS ROUTE
 const router = require("express").Router();
 const mongoose = require('mongoose')
 const { Router } = require("express");
 //IMPORT OUR MODEL
-
+const User = require("../models/Orders")
 // const Creem = require("../models/Creem");
 // const seedStore = require("../db/seedStoreData.json")
 // SEED DATA FOR SEED ROUTE
 const userSeed = [
   {
-  "name": "Order 0"
-  
+  "name": "Order 0",
+  "creems": "60a92bea49a38fbe5d2d39c1",
+  "user": "60b01fad483f76b130792531"
    },
    {
- "name": "Order 1"
-     }
+ "name": "Order 1",
+ "creems": "60a92bea49a38fbe5d2d39c1",
+ "user": "60b01fad483f76b130792531"
+     },
+     {
+     "name": "Order Different USER",
+     "creems": "60a92bea49a38fbe5d2d39c1",
+     "user": "60b01fad483f76b130792532"
+         }
     ]
 // ROUTES (async, since database actions are asynchronous)
 
@@ -36,6 +45,16 @@ router.get("/seed", async (req, res) => {
   }
 });
 
+router.get("/", async (req, res) => {
+  try {
+  res.json(await User.find({}));
+}
+catch (error) {
+  // return error as JSON with an error status
+  res.status(400).json(error);
+}
+});
+
 //GET Route for ALL 
 router.get("/", async (req, res) => {
   try {
@@ -52,10 +71,11 @@ router.delete("/:id", async (req, res) => {
   res.json(await User.findByIdAndRemove(req.params.id));
 });
 
-//GET route for single 
-router.get("/:id", async (req, res) => {
+//GET route for orders by User
+
+router.get("/history/:id", async (req, res) => {
   try {
-  res.json(await User.findById(req.params.id));
+  res.json(await User.find({ user: req.params.id}));
 }
 catch (error) {
   // return error as JSON with an error status
@@ -89,8 +109,9 @@ catch (error) {
   //CREATE NEW USER
   router.post("/", async (req, res) => {
     try {
+      console.log(req.body)
       // pass the request body to create a new place in the database
-      const newOrder = await Order.create(req.body);
+      const newOrder = await User.create(req.body);
       // send newly created place back as JSON
       res.json(newOrder);
     } catch (error) {
@@ -114,5 +135,6 @@ catch (error) {
       res.status(400).json(error);
     }
   });
+
 
 module.exports = router;

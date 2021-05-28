@@ -8,9 +8,9 @@ const model = mongoose.model;
 
 // Create Place Schema
 const userSchema = new Schema({
-	user: String,
-  		first: String,
-		  last: String,
+		 user: {type: String, require: true},
+  			first: {type: String, require: true},
+		  last: {type: String, require: true},
 		  email: String,
 		  phone: Number,
 		  address: String,
@@ -18,7 +18,7 @@ const userSchema = new Schema({
 		  state: String,
 		  zip: Number,
 		  order: [{type: Schema.Types.ObjectId, ref: 'Orders'}],
-		  faves: [{type: Schema.Types.ObjectId, ref: 'Creems'}],
+		  faves: [{type: Schema.Types.ObjectId, ref: 'Creem', required: true, unique: true }],
 
 		  img: String
 		

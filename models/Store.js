@@ -7,12 +7,16 @@ const model = mongoose.model;
 
 // Create Place Schema
 const storeSchema = new Schema({
-  		name: String,
+  		name: {type: String, require: true},
 		  description: String,
 		img: String,
-		location: String,
+		location: {type: String, require: true},
 		rating: [Number],
-		order: [Schema.Types.ObjectId]
+		order: [Schema.Types.ObjectId],
+		stock: {
+			inventory: {type: Number},
+			creem: {type: Schema.Types.ObjectId, ref: 'Creem', require: true}
+		}
 }, {
     timestamps: true
 });

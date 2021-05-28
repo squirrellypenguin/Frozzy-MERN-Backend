@@ -21,7 +21,7 @@ const morgan = require("morgan");
 const storeRouter = require("./controllers/Store");
 const creemRouter = require("./controllers/Creem");
 const userRouter = require("./controllers/User");
-const orderRouter = require("./controllers/Orders");
+const orderPath = require("./controllers/Orders");
 ////////////
 //MIDDLEWARE
 ////////////
@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
 });
 
 // Dog Routes send to dog router
-app.use("/order", orderRouter);
+app.use("/orders", orderPath);
 app.use("/store", storeRouter);
 app.use("/creem", creemRouter);
 app.use("/user", userRouter);
